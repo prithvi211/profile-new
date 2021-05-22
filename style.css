@@ -1,0 +1,109 @@
+h1 {
+    color: black;
+    margin-left:30px;
+    text-shadow: 2px 2px #ff0000;
+    text-decoration-style: wavy;
+    font-size:55px;
+    margin-top: 65px;
+ }
+ /*
+*{
+    border: solid
+}
+*/
+h2 {
+    color: black;
+    
+}
+
+.header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games{
+
+    background-color: orangered;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+   
+}
+.pages{
+    margin:30px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+.pages a{
+    margin-bottom: 12px;
+}
+.pic{
+
+    display:flex;
+ 
+    background-image: linear-gradient(to bottom right, yellow,red);
+}
+
+.pro{
+    display:flex;
+    align-items: left;
+}
+.pic img{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+   
+}
+
+.game img{
+
+width:600px;
+height:400px;
+
+}
+.games p{
+    color:black;
+    
+    text-align: center;
+    font-weight: 'bold';
+   
+}
+.game{
+    position:relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color: yellow;
+    font-size : 30px;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+    
+}
+
+.game:hover p{
+    opacity:1;
+}
+.game:hover img{
+    opacity:0.33;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+color: purple;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+font-size:20px;
+}
